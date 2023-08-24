@@ -11,18 +11,22 @@ public class User {
     //  and accessed, preventing unauthorized or unintended modifications that could 
     //  lead to unexpected behavior or errors.
     
-    String name;
-    int id;
+    private String name;
+    private int id;
 
-    void set(String name){
+    void set_name(String name){
         this.name=name;
     }
-    void set(int id){
+    void set_id(int id){
         this.id=id;
     }
 
-    String get(){
+    String get_name(){
         return this.name;
+    }
+
+    int get_id(){
+        return this.id;
     }
 
     // Method overloading --->>> Allows classes to have methods with same name but different parameters.
@@ -31,11 +35,19 @@ public class User {
 
 
     public User(String name,int id){
-        set(name);
-        set(id);
+        set_name(name);
+        set_id(id);
+    }
+    public User(){
+        
     }
 
 }
     // Constructers
     // When creating a class there is a default contructer. 
     // But when we create a custom contructer we can assign values to a object when it's creating.
+    // No return types , Should match with the class name
+    // Once we create a custom contructor the default constructer will no longere exit. We need to create it again we can provide default values
+
+
+    // Overriding replacing a method that already exists . 

@@ -5,10 +5,10 @@ public class oop {
         System.out.println("Hello");
         User u  = new User();
         
-        u.set("Hiran");
+        u.set_name("Hiran");
 
 
         // contructor calling
-        User u  = new User("Hiran",2);
+        User u2  = new User("Hiran",2);
 }
 }
