@@ -3,8 +3,8 @@ public class User {
 
 
     // process of wrapping code and data together into a single unit. 
-    //encapsulation hides complex, lower-level data. It can prevent unwanted access 
-    //to sensitive data and hide information through access modifiers while also reducing erroneous human changes
+    // encapsulation hides complex, lower-level data. It can prevent unwanted access 
+    // to sensitive data and hide information through access modifiers while also reducing erroneous human changes
     // The idea behind encapsulation is to hide the implementation details of an 
     // object from the outside world while providing well-defined interfaces for
     //  interacting with that object. This way, you can control how data is manipulated 
@@ -39,7 +39,7 @@ public class User {
         set_id(id);
     }
     public User(){
-        
+
     }
 
 }
