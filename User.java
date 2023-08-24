@@ -1,3 +1,4 @@
+import java.util.List;
 
 public class User {
 
@@ -13,6 +14,18 @@ public class User {
     
     private String name;
     private int id;
+
+    public static int age = 21; 
+    public static List<User> userList;
+    // With use of static we can manage memory of a class , using static keyword we can assign
+    // values that is common for every instance of the class . like a constant . 
+    public static void getusers() {
+        for (User each : userList) {
+            System.out.println(each.get_name());
+        }
+    }
+
+
 
     void set_name(String name){
         this.name=name;
@@ -41,6 +54,7 @@ public class User {
     public User(){
 
     }
+ 
 
 }
     // Constructers
