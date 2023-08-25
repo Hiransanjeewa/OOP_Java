@@ -19,6 +19,15 @@ public class User {
     public static List<User> userList;
     // With use of static we can manage memory of a class , using static keyword we can assign
     // values that is common for every instance of the class . like a constant . 
+    
+    // In Java, static keyword is mainly used for memory management. 
+    // It can be used with variables, methods, blocks and nested classes.
+    // It is a keyword which is used to share the same variable or method of a given class.
+    // Basically, static is used for a constant variable or a method that is same for every instance of a class.
+    
+    
+    
+    
     public static void getusers() {
         for (User each : userList) {
             System.out.println(each.get_name());
