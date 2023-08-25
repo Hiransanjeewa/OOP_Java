@@ -1,18 +1,26 @@
 public class Students extends User{
 
+
+    void verify(){
+        System.out.println("Verifying using Phone");
+        
+    }
+    
+
+
     // To inherit parameters and methods from the parent class ,
     // Focus on code reuse and establish relationships between classes. 
    
 
-        private boolean verified= false;
+        // private boolean verified= false;
 
-        void set_verified(boolean verified){
+        // void set_verified(boolean verified){
             
-        }
+        // }
 
-        boolean get_verified(){
-            return verified;
-        }
+        // boolean get_verified(){
+        //     return verified;
+        // }
 
         // we are using implements for interface classes same as extends 
         // but more rely on the behaviors.

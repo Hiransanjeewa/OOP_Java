@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class User {
+public abstract class User {
 
 
     // process of wrapping code and data together into a single unit. 
@@ -27,7 +27,32 @@ public class User {
     
     
     
+    private boolean verified= false;
+
+    void set_verified(boolean verified){
+        this.verified=verified;
+    }
+
+    boolean get_verified(){
+        return verified;
+    }
+
+    void verify(){
+        System.out.println("Verifying ...");
+    }
     
+
+
+
+
+
+
+
+
+
+
+
+
     public static void getusers() {
         for (User each : userList) {
             System.out.println(each.get_name());
